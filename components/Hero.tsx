@@ -77,7 +77,7 @@ export default function Hero() {
 
 
             <a
-              href="#menu"
+              href="#services"
               className="border-b border-[#24231f] pb-1 text-sm text-[#24231f]"
             >
               See menu
