@@ -16,27 +16,27 @@ const galleryImages = [
   },
   {
     src: "/images/damour-nail-salon-11.jpg",
-    alt: "La Pierre manicure",
+    alt: "damour manicure",
     label: "04 — Natural finish",
   },
   {
     src: "/images/damour-nail-salon-8.jpg",
-    alt: "La Pierre nail detail",
+    alt: "damour detail",
     label: "05 — Stone tones",
   },
   {
     src: "/images/damour-nail-salon-9.jpg",
-    alt: "La Pierre studio detail",
+    alt: "damour detail",
     label: "06 — Quiet details",
   },
     {
     src: "/images/damour-nail-salon-10.jpg",
-    alt: "La Pierre studio detail",
+    alt: "damour studio detail",
     label: "07 — Quiet details",
   },
     {
     src: "/images/damour-nail-salon-7.jpg",
-    alt: "La Pierre studio detail",
+    alt: "damour detail",
     label: "08 — Quiet details",
   },
 ];
@@ -62,7 +62,7 @@ export default function Gallery() {
 
           <p className="max-w-sm text-sm leading-7 text-[#746f66]">
             A collection of quiet details, polished finishes and the
-            atmosphere of La Pierre.
+            atmosphere of D'Amour Nail Salon.
           </p>
         </div>
 
