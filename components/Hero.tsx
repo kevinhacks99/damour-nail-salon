@@ -41,7 +41,7 @@ export default function Hero() {
         <div>
 
             <div className="mb-10 inline-flex items-center gap-3 rounded-full border border-white/80 bg-white/30 px-5 py-3 backdrop-blur-sm">
-              <span className="h-2 w-2 rounded-full bg-green-500 animate-[flashBlack_2s_ease-in-out_infinite]" />
+              <span className="h-2 w-2 rounded-full bg-green-500 animate-[flashBlack_1s_ease-in-out_infinite]" />
 
               <span className="text-xs font-medium uppercase tracking-[0.25em] text-[#806672]">
                 Booking open · Pooler, GA
@@ -86,33 +86,13 @@ export default function Hero() {
 
         </div>
 
-
-
-        {/* Right Image / Feature Card */}
-        <div className="relative mx-auto h-[520px] w-full max-w-lg overflow-hidden rounded-[2rem] bg-[#ddd6c8] shadow-2xl shadow-black/10">
-
-
-          {/* Card marble texture */}
-          <div className="absolute inset-0 bg-gradient-to-br from-[#eee9df] via-[#d8d0c0] to-[#b8aa94]" />
-
-
-          {/* Card marble veins */}
-          <div className="absolute left-[-20%] top-[30%] h-4 w-[140%] rotate-[-25deg] bg-white/60 blur-lg" />
-
-          <div className="absolute left-[-20%] top-[55%] h-2 w-[140%] rotate-[-25deg] bg-[#9f947f]/30 blur-sm" />
-
-
-            {/* Right Image */}
-            <div className="relative mx-auto h-[520px] w-full max-w-lg overflow-hidden rounded-[2rem]">
-            <img
-                src="/images/test.png"
-                alt="La Pierre nail atelier"
-                className="h-full w-full object-cover"
-            />
-            </div>
+        <div className="relative mx-auto h-[520px] w-full max-w-lg">
+        <img
+            src="/images/test.png"
+            alt="La Pierre nail atelier"
+            className="h-full w-full object-contain"
+        />
         </div>
-
-
       </div>
 
     </section>
