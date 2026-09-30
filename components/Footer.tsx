@@ -12,8 +12,7 @@ export function Footer() {
           </a>
 
           <p className="mt-3 max-w-sm text-sm leading-6 text-[#756d73]">
-            Beautiful nails, thoughtful service, and a little time for
-            yourself.
+            Beautiful nails & thoughtful service.
           </p>
         </div>
 
