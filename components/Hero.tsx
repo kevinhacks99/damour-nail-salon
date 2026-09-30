@@ -67,12 +67,13 @@ export default function Hero() {
 
           <div className="mt-9 flex items-center gap-6">
 
-            <button
-              type="button"
-              className="rounded-full bg-[#24231f] px-6 py-3 text-sm text-white transition hover:bg-[#b28b4a]"
+            <a
+            href="tel:+19129883690"
+            className="rounded-full bg-[#24231f] px-5 py-3 text-sm text-white inline-block"
             >
-              Book an appointment
-            </button>
+            Book an Appointment
+            </a>
+            
 
 
             <a
