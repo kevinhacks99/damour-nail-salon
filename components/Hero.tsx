@@ -44,7 +44,7 @@ export default function Hero() {
               <span className="h-2 w-2 rounded-full bg-green-500 animate-[flashBlack_1s_ease-in-out_infinite]" />
 
               <span className="text-xs font-medium uppercase tracking-[0.25em] text-[#806672]">
-                Booking open · Pooler, GA
+                · Pooler, GA
               </span>
             </div>
 

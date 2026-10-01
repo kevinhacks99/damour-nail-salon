@@ -49,11 +49,19 @@ export function Footer() {
       </div>
 
       {/* Bottom row */}
-      <div className="mt-10 flex flex-col gap-3 border-t border-[#ddd5d8] pt-5 text-xs text-[#9a9197] sm:flex-row sm:items-center sm:justify-between">
-        <p>© 2026 D'Amour Nail Salon. All rights reserved.</p>
+        <div className="mt-10 flex flex-col gap-5 border-t border-[#ddd5d8] pt-5 text-xs text-[#9a9197] sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-center gap-4">
+            <img
+            src="/images/test.png"
+            alt="D'Amour Nail Salon"
+            className="h-10 w-auto object-contain"
+            />
+
+            <p>© 2026 D'Amour Nail Salon. All rights reserved.</p>
+        </div>
 
         <p>Pooler, Georgia</p>
-      </div>
+        </div>
     </footer>
   );
 }
