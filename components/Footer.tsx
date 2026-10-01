@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer className="border-t border-[#ddd5d8] px-6 py-10 lg:px-12">
-      <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+      <div className="reveal flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
         {/* Brand */}
         <div>
           <a

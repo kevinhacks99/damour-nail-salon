@@ -45,7 +45,7 @@ export default function Gallery() {
   return (
     <section
       id="gallery"
-      className="border-t border-black/10 px-6 py-28 md:px-12 lg:px-20 lg:py-36"
+      className="reveal border-t border-black/10 px-6 py-28 md:px-12 lg:px-20 lg:py-36"
     >
       <div className="mx-auto max-w-6xl">
         {/* Heading */}

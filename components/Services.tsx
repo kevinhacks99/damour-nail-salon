@@ -121,7 +121,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="border-t border-black/10 px-6 py-28 md:px-12 lg:px-20 lg:py-36"
+      className="reveal border-t border-black/10 px-6 py-28 md:px-12 lg:px-20 lg:py-36"
     >
       <div className="mx-auto max-w-6xl">
         {/* Heading */}

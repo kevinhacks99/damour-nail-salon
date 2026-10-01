@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative min-h-[calc(100vh-80px)] overflow-hidden px-6 py-20 md:px-12 lg:px-20">
+    <section className="reveal relative min-h-[calc(100vh-80px)] overflow-hidden px-6 py-20 md:px-12 lg:px-20">
 
       {/* Marble Background Layer */}
       <div className="absolute inset-0 z-0 overflow-hidden">
